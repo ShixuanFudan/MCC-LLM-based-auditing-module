@@ -1,0 +1,18 @@
+MCC-LLM-based-auditing-module/
+├── data/
+│   ├── DrugBank_Knowledge_Base.csv                       # Features for 343 drugs (Indication, MoA, Toxicity)
+│   ├── Prot_KB.json                                      # MCC definitions and basal disease mapping
+│   ├── guide/                                            # Guide files and knowledge base json
+│   └── Rawdata/                                          # MCC related basic files
+├── src/
+│   ├── Evaluate_MCC_Combinations.py                      # Agent running file (please enter API key here)
+│   └── Test_LLM_Temperature/                             # LLM Temperature Test scripts
+├── results/
+│   ├── Table S19——Pharmacist_Audit.csv                   # Inference results (Table S19)
+│   └── Supplementary_Table_S26_Repeatability_Benchmark.csv # 25-regimen stability benchmark (Table S31)
+├── text/
+│   └── Table S19.csv                                     # Test file
+├── requirements.txt
+└── README.md
+
+
